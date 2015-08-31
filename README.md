@@ -5,6 +5,7 @@ A Yeoman generator for creating FE component projects.
 ## Install Generator
 
 ```bash
+npm install -g yo
 npm install -g generator-fe-component
 ```
 
