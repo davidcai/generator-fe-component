@@ -1,0 +1,34 @@
+{
+  "name": "generator-fe-component",
+  "version": "0.1.2",
+  "description": "FE component project generator",
+  "main": "index.js",
+  "files": [
+    "app"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "David Cai <dcai@financialengines.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "lodash": "^3.10.1",
+    "yeoman-generator": "^0.20.3"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.11",
+    "gulp-bump": "^0.3.1",
+    "gulp-filter": "^3.0.1",
+    "gulp-git": "^1.2.4",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-tag-version": "^1.3.0",
+    "yargs": "^3.22.2"
+  },
+  "publishConfig": {
+    "registry": "https://repoprd.fngn.com/artifactory/api/npm/npm-local"
+  }
+}

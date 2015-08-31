@@ -1,0 +1,37 @@
+{
+  "staticFiles": [
+    ".bowerrc",
+    ".editorconfig",
+    ".gitattributes",
+    ".gitignore",
+    ".jshintrc",
+
+    "karma.conf.js",
+    "protractor.conf.js",
+    "README.md",
+
+    "src/assets/images/placeholder-component.gif",
+    "src/components/common/variables.scss",
+    "src/favicon.ico"
+  ],
+
+  "templates": [
+    "package.json",
+    "bower.json",
+    "gulpfile.js",
+
+    "src/app/demo.controller.js",
+    "src/app/demo.controller.spec.js",
+    "src/app/demo.html",
+    "src/app/demo.module.js",
+    "src/app/demo.scss",
+
+    "src/components/placeholder-component/placeholder-component.directive.js",
+    "src/components/placeholder-component/placeholder-component.html",
+    "src/components/placeholder-component/placeholder-component.module.js",
+    "src/components/placeholder-component/placeholder-component.scss",
+    "src/components/placeholder-component/placeholder-component.service.js",
+
+    "src/index.html"
+  ]
+}

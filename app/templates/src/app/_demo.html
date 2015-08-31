@@ -1,0 +1,14 @@
+<div class="container demo" ng-controller="DemoCtrl">
+  <h2>The story of a seed</h2>
+
+  <div class="panel">
+    <div class="panel-body">
+      <div class="pull-center">
+        <button type="button" class="btn btn-default btn-sm" data-ng-click="shrink()"><i class="fa fa-arrow-left"></i></button>
+        <div data-<%= compName %> data-step="step"></div>
+        <button type="button" class="btn btn-success btn-lg" data-ng-click="grow()">{{ labels[step - 1] }}</button>
+      </div>
+
+    </div>
+  </div>
+</div>

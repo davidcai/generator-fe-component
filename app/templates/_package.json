@@ -1,0 +1,16 @@
+{
+  "name": "<%= compName %>",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "chalk": "^0.5.1",
+    "fe-gulp": "latest",
+    "gulp": "3.8.11",
+    "lodash": "^3.7.0",
+    "protractor-html-screenshot-reporter": "^0.0.19",
+    "request": "^2.55.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
