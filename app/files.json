@@ -3,7 +3,6 @@
     ".bowerrc",
     ".editorconfig",
     ".gitattributes",
-    ".gitignore",
     ".jshintrc",
 
     "karma.conf.js",
@@ -16,6 +15,7 @@
   ],
 
   "templates": [
+    ".gitignore",
     "package.json",
     "bower.json",
     "gulpfile.js",
